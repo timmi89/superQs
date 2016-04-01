@@ -1,0 +1,15 @@
+{ "questions" : [{
+
+    "content": "why am i here?",
+    "author": "me",
+    "note": "really, i would like to know..."
+  }, {
+    "content": "what is green?",
+    "author": "someone with color-blindness",
+    "note": "all greens are probably different anyway"
+  }, {
+    "content": "does this smell like ether?",
+    "author": "high-tolerance al",
+    "note": "how do feel about vans?"
+  }]
+}
