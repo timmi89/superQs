@@ -1,9 +1,16 @@
 <h1>i was just wondering...</h1>
 
 <ul>
-  {{#each model as |question|}}
-    {{question-tile question=question update="update" destroyQuestion="destroyQuestion"}}
+  {{#each model.questions as |question|}}
+    {{question-tile question=question}}
   {{/each}}
 </ul>
 
 {{new-question save2="save3"}}
+<h3>answers</h3>
+<ul>
+  {{#each model.answers as |answer|}}
+    <li>{{answer.answer}}</li>
+  {{/each}}
+</ul>
+<!-- update="update" destroyQuestion="destroyQuestion"}} -->
