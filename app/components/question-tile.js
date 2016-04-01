@@ -9,6 +9,9 @@ export default Ember.Component.extend({
     noteHide: function(){
       this.set('isNoteShowing', false);
     },
+    update(question, params){
+      this.sendAction('update', question, params);
+    },
     delete(question){
       if (confirm("are really going to give up your quest for knowledge?! pft..")){
         this.sendAction('destroyQuestion', question);

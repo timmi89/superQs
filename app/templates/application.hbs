@@ -1,3 +1,18 @@
-<h2 id="title">Welcome to Ember</h2>
+<header class="jumbtron">
+  <h1>questionable</h1>
+  {{#link-to 'index'}}home{{/link-to}}
+</header>
 
+<div class="container">
+  <nav class="navbar navbar-default navbar">
+    <div class="container">
+      <ul class="nav navbar-nav">
+        <li>{{#link-to 'index'}}home{{/link-to}}</li>
+        <li><a href="#">entertainment</a></li>
+        <li><a href="#">books</a></li>
+        <li><a href="#">lifestyle</a></li>
+      </ul>
+    </div>
+  </nav>
 {{outlet}}
+</div>
